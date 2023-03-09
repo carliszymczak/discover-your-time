@@ -1,0 +1,38 @@
+.app-wrapper {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./assets/background.png");
+  background-size: cover;
+  position: relative;
+}
+
+.input-text {
+  text-align: center;
+  color: white;
+  padding: 16px 8px;
+  background-color: #cac4c5;
+  border: none;
+  border-radius: 100px;
+  font-weight: 700;
+}
+
+.input-text::placeholder {
+  color: white;
+}
+
+.button {
+  text-align: center;
+  color: white;
+  padding: 14px 46px;
+  background-color: #cac4c5;
+  border: none;
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.button-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

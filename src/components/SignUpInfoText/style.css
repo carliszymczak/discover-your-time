@@ -1,0 +1,35 @@
+.sign-up-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90%;
+  line-height: 1.4;
+}
+
+.sign-up-info-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign-up-info-title {
+  font-size: 28px;
+  font-weight: 500;
+  color: white;
+}
+
+.sign-up-info-text {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+
+  color: white;
+}
+
+.sign-up-info-text a {
+  text-decoration: underline;
+}
+
+.sign-up-info-info-icon {
+  font-size: 28px;
+  color: white;
+}
