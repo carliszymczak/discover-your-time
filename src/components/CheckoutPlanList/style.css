@@ -1,0 +1,27 @@
+.checkout-plan-wrapper {
+  background-color: #998b8f;
+  color: white;
+  padding: 42px 0;
+  font-weight: 500;
+}
+
+.checkout-plan-wrapper h3 {
+  font-size: 28px;
+  line-height: 1.4;
+  padding: 0 30px;
+  width: 100%;
+}
+
+.checkout-plan-wrapper .card {
+  background-color: #cac4c5;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 20px;
+  margin-top: 16px;
+  min-height: 85vh;
+}
+
+.empty-plan{
+  text-align: center;
+}

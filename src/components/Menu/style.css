@@ -1,0 +1,27 @@
+.menu {
+  background-color: white;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+}
+
+.menu .dot {
+  width: 35px;
+  height: 35px;
+  background-color: #998b8f;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}

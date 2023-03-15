@@ -1,0 +1,57 @@
+.diagram-info-wrapper {
+  background-color: #ab9fa3;
+  color: white;
+}
+
+.diagram-info-wrapper h2 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.07;
+  padding: 42px;
+  padding-bottom: 28px;
+}
+
+.diagram-info-wrapper .card {
+  background-color: #cac4c5;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 20px;
+}
+
+.diagram-info-wrapper h4 {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.diagram-info-box {
+    background-color: #D8D5D6;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.diagram-info-wrapper p {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.diagram-info-wrapper button {
+    color: #998B8F;
+    background-color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 22px;
+    padding: 8px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .diagram-info-box{
+    height: 400px;
+  }
+}

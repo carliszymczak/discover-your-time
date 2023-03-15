@@ -1,0 +1,23 @@
+.add-activity-wrapper {
+  background-color: #cac4c5;
+  color: white;
+  padding: 42px 0;
+  font-weight: 500;
+}
+
+.add-activity-wrapper h3 {
+  font-size: 28px;
+  line-height: 1.4;
+  padding: 0 30px;
+  width: 100%;
+}
+
+.add-activity-wrapper .card {
+    background-color: #998B8F;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 20px;
+    margin-top: 16px;
+    min-height: 85vh;
+  }

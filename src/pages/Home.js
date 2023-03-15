@@ -1,12 +1,13 @@
 import React from "react";
+import Main from "../components/Main/Main";
+import Menu from "../components/Menu/Menu";
 
 const Home = () => {
-
-    const yourName  = localStorage.getItem('name');
   return (
-    <div>
-      <h1>Twoje imie to {yourName}</h1>
-    </div>
+    <>
+      <Main />
+      <Menu />
+    </>
   );
 };
 

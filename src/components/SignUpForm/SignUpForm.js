@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import InfoBox from "../InfoBox/InfoBox";
 import "./style.css";
 import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
+import { addDoc, collection } from "firebase/firestore";
+import { db } from "../../firebase";
 
 const SignUpForm = () => {
   const [name, setName] = useState("");
@@ -21,9 +23,22 @@ const SignUpForm = () => {
     }
   };
 
+  const addUser = async (e) => {
+    e.preventDefault();
+    try {
+      const docRef = await addDoc(collection(db, "users"), {
+        id: name,
+      });
+      localStorage.setItem("userId", docRef.id);
+      window.location.pathname = "/home";
+    } catch (e) {
+      console.error("Error adding document: ", e);
+    }
+  };
+
   const onNextClick = (e) => {
     if (!isInvalidName) {
-      localStorage.setItem("name", name);
+      addUser(e)
     }
   };
 

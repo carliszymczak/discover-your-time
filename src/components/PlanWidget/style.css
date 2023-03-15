@@ -1,0 +1,128 @@
+.widget-plan {
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: #998b8f;
+  height: 110px;
+  position: relative;
+}
+
+.widget-plan.dark .widget-plan-box {
+  background-color: #b7abb0;
+}
+
+.widget-plan.dark .widget-plan-box-circle {
+  background-color: #998b8f;
+}
+
+.widget-plan.medium .widget-plan-box {
+  background-color: #ab9fa3;
+}
+
+.widget-plan.medium .widget-plan-box-circle {
+  background-color: #cac4c5;
+}
+
+.widget-plan-box {
+  background-color: #998b8f;
+  box-sizing: border-box;
+  padding: 12px;
+  height: 100%;
+  aspect-ratio: 1;
+  border-radius: 12px;
+}
+
+.widget-plan-box__circle {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  background-color: #d8d5d6;
+  text-align: center;
+}
+
+.widget-plan-text {
+  padding-left: 8px;
+  line-height: 1.4;
+  margin-right: -10px;
+  width: 100%;
+  font-weight: 500;
+  height: max-content;
+}
+
+.widget-plan-text h3 {
+  font-size: 16px;
+}
+
+.widget-plan-text h4 {
+  font-size: 14px;
+}
+
+.widget-plan-text p {
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+.widget-plan-input {
+  border: none;
+  color: #998b8f;
+  font-weight: 500;
+}
+
+.widget-plan-input:disabled {
+  background-color: transparent;
+}
+
+.widget-plan-input::placeholder {
+  color: #998b8f;
+}
+
+.widget-plan-description input {
+  font-size: 14px;
+}
+
+.widget-plan-time {
+  font-size: 10px;
+  margin-top: 18px;
+  margin-left: 3px;
+}
+
+.widget-plan-time input {
+  font-size: 10px;
+}
+
+.widget-plan-time input::-webkit-calendar-picker-indicator {
+  background: none;
+}
+
+.widget-plan-button__add {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+}
+
+.widget-plan-check {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: transparent;
+  border: none;
+  transform: translate(-75%, -25%);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #998b8f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

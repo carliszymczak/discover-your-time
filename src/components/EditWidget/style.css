@@ -1,0 +1,116 @@
+.widget-edit {
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: #998b8f;
+  height: 110px;
+}
+
+@media (min-width: 768px) {
+  .widget-edit {
+    transform: scale(1) !important;
+    position: relative;
+  }
+}
+
+.widget-edit.dark .widget-edit-box {
+  background-color: #b7abb0;
+}
+
+.widget-edit.dark .widget-edit-box-circle {
+  background-color: #998b8f;
+}
+
+.widget-edit.medium .widget-edit-box {
+  background-color: #ab9fa3;
+}
+
+.widget-edit.medium .widget-edit-box-circle {
+  background-color: #cac4c5;
+}
+
+.widget-edit-box {
+  background-color: #998b8f;
+  box-sizing: border-box;
+  padding: 12px;
+  height: 100%;
+  aspect-ratio: 1;
+  border-radius: 12px;
+}
+
+.widget-edit-box__circle {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  background-color: #d8d5d6;
+  text-align: center;
+}
+
+.widget-edit-text {
+  padding-left: 8px;
+  line-height: 1.4;
+  margin-right: -10px;
+  width: 100%;
+  font-weight: 500;
+  height: max-content;
+}
+
+.widget-edit-text h3 {
+  font-size: 16px;
+}
+
+.widget-edit-text h4 {
+  font-size: 14px;
+}
+
+.widget-edit-text p {
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+.widget-edit-input {
+  border: none;
+  color: #998b8f;
+  font-weight: 500;
+}
+
+.widget-edit-input:disabled {
+  background-color: transparent;
+}
+
+.widget-edit-input::placeholder {
+  color: #998b8f;
+}
+
+.widget-edit-description input {
+  font-size: 14px;
+}
+
+.widget-edit-time {
+  font-size: 10px;
+  margin-top: 18px;
+  margin-left: 3px;
+}
+
+.widget-edit-time input {
+  font-size: 10px;
+}
+.widget-edit-time input::-webkit-calendar-picker-indicator {
+  background: none;
+}
+
+.widget-edit-button__add {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+}

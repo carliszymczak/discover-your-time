@@ -5,7 +5,7 @@ import "./style.css";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Intro = () => {
-  const isSignedIn = localStorage.getItem("name");
+  const isSignedIn = localStorage.getItem("userId");
 
   const linkHref = isSignedIn ? "/home" : "/sign-up";
   return (

@@ -8,8 +8,10 @@ import SignUp from "./pages/SignUp";
 import SignUpInfo from "./pages/SignUpInfo";
 import Home from "./pages/Home";
 
-
 import "./style.css";
+import AddActivity from "./pages/AddActivity";
+import Diagram from "./pages/Diagram";
+import CheckoutPlan from "./pages/CheckoutPlan";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +29,18 @@ const router = createBrowserRouter([
   {
     path: "/home",
     element: <Home />,
+  },
+  {
+    path: "/add-activity",
+    element: <AddActivity />,
+  },
+  {
+    path: "/checkout-plan",
+    element: <CheckoutPlan />,
+  },
+  {
+    path: "/diagrams",
+    element: <Diagram />,
   },
 ]);
 
