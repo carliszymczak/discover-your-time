@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/discover-your-time/static/css/main.a983b506.css",
+    "main.css": "/discover-your-time/static/css/main.d95ad996.css",
     "main.js": "/discover-your-time/static/js/main.c0b147c3.js",
     "static/js/787.f971c7dc.chunk.js": "/discover-your-time/static/js/787.f971c7dc.chunk.js",
     "static/media/background.png": "/discover-your-time/static/media/background.7a511c49053e1fe32237.png",
     "index.html": "/discover-your-time/index.html",
-    "main.a983b506.css.map": "/discover-your-time/static/css/main.a983b506.css.map",
+    "main.d95ad996.css.map": "/discover-your-time/static/css/main.d95ad996.css.map",
     "main.c0b147c3.js.map": "/discover-your-time/static/js/main.c0b147c3.js.map",
     "787.f971c7dc.chunk.js.map": "/discover-your-time/static/js/787.f971c7dc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a983b506.css",
+    "static/css/main.d95ad996.css",
     "static/js/main.c0b147c3.js"
   ]
 }
